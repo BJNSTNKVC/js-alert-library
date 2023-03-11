@@ -111,15 +111,15 @@ new Alert({
 })
 ````
 
-#### icon
+#### info
 
-If passed as `boolean`, this property determines whether an Alert should have a close icon (defaults to `true`):
+If passed as `boolean`, this property determines whether an Alert should have an info icon (defaults to `true`):
 
 ```js
 new Alert({
     type: 'success',
     message: 'Payment completed!',
-    close: false,
+    info: false,
     ...
 })
 ````
@@ -133,7 +133,7 @@ You can pass an HTML string, which will then be rendered instead of a default ic
 new Alert({
     type: 'success',
     message: 'Payment completed!',
-    icon: '<i class="far fa-credit-card"></i>',
+    info: '<i class="far fa-credit-card"></i>',
     ...
 })
 ````
