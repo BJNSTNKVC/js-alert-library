@@ -14,7 +14,7 @@ Once the package has been installed, you can import it
 using [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) declaration:
 
 ```js
-import AJAX from '@bjnstnkvc/alert'
+import Alert from '@bjnstnkvc/alert'
 ```
 
 Additionally, you can import default library styles:
