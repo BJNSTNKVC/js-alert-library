@@ -4,11 +4,12 @@ Simple JavaScript Alert library.
 
 ## Installation & setup
 
+### NPM
+
 You can install the package via npm:
 
     npm install @bjnstnkvc/alert
 
-## Usage
 
 Once the package has been installed, you can import it
 using [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) declaration:
@@ -21,6 +22,20 @@ Additionally, you can import default library styles:
 
 ```js
 import '@bjnstnkvc/alert/src/alert.css'
+```
+
+### CDN
+
+You can install the package via jsDelivr CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@bjnstnkvc/alert/lib/Alert.min.js"></script>
+```
+
+Additionally, you can import default library styles:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@bjnstnkvc/alert/src/alert.css">
 ```
 
 ## Usage
@@ -142,6 +157,8 @@ Example above would generate the following Alert:
 
 ![Alert with HTML info icon](docs/images/HTML%20Info%20Icon.png)
 
+> **Note:** Example above uses [FontAwesome](https://fontawesome.com/) in order to display the icon which needs to be imported.  
+
 #### close
 
 If passed as `boolean`, this property determines whether an Alert should have a close icon (defaults to `true`):
@@ -172,6 +189,8 @@ new Alert({
 Example above would generate the following Alert:
 
 ![Alert with HTML close icon](docs/images/HTML%20Close%20Icon.png)
+
+> **Note:** Example above uses [FontAwesome](https://fontawesome.com/) in order to display the icon which needs to be imported.
 
 #### withProgress
 
